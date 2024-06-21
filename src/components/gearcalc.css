@@ -1,0 +1,39 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+}
+
+.wholecalc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.inputs {
+    display: flex;
+    /* justify-content: center; */
+    align-items: end;
+    flex-direction: column;
+    gap: .8em;
+    /* color: white;
+    background-color: black; */
+}
+
+.com {
+    display: flex;
+    gap: 1em;
+}
+
+.com input {
+    outline: none;
+    border: 2px solid #7701b2;
+    border-radius: .2rem;
+}
+
+.calcbtn button{
+    height: 2rem;
+    width: 4rem;
+}

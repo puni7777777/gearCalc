@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       {/* <Cursoranim /> */}
-      {/* <Gearcalc /> */}
-      <Canvas />
+      <Gearcalc />
+      {/* <Canvas /> */}
     </>
   );
 }
